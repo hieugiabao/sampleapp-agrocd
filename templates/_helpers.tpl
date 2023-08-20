@@ -61,12 +61,12 @@ Create the name of the service account to use
 {{- end }}
 {{- end }}
 
-{{- define "helpers.list-env-variables"}}
+{{- define "helpers.list-env-variables" }}
 {{- range $key, $val := .Values.env.secretoke }}
 - name: {{ $key }}
   valueFrom:
     secretKeyRef:
       name: {{ .Values.secret.name }}
       key: {{ $key }}
-{{- end}}
+{{- end }}
 {{- end }}
