@@ -84,17 +84,3 @@ affinity: {}
 
 secret:
   name: app-env-secret
-
-env:
-  secret:
-    NODE_ENV: production
-    DB_POSTGRES_CONN_STRING: postgresql://postgres:9lGelCfp9cnyWoe9@db.xiaamrbkwhslkxbskhic.supabase.co:5432/postgres
-    DB_POSTGRES_NAME: postgres
-    DB_MONGO_CONN_STRING: mongodb+srv://ecommerce:bNZ580zkzBZPaGBh@cluster0.i2i1kbj.mongodb.net/test
-    JWT_SECRET: secret
-    ACCESS_TOKEN_TIMEOUT: 3600
-    REFRESH_TOKEN_TIMEOUT: 2592000
-    TZ: +07:00
-    REDIS_PORT: 6379
-    REDIS_HOST: 20.24.9.8
-    REDIS_PASSWORD: Admin123

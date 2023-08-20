@@ -38,6 +38,7 @@ securityContext: {}
 
 service:
   type: ClusterIP
+  containerPort: 80
   port: 80
 
 ingress:
