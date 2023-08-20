@@ -86,7 +86,7 @@ secret:
   name: app-env-secret
 
 env:
-  secretoke:
+  secret:
     NODE_ENV: production
     DB_POSTGRES_CONN_STRING: postgresql://postgres:9lGelCfp9cnyWoe9@db.xiaamrbkwhslkxbskhic.supabase.co:5432/postgres
     DB_POSTGRES_NAME: postgres
