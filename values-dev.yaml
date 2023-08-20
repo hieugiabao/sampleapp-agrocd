@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: hieuphongvy/nodejs-demo
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: stable
+  tag: latest
 
 imagePullSecrets: []
 nameOverride: ""
@@ -38,6 +38,7 @@ securityContext: {}
 
 service:
   type: LoadBalancer
+  containerPort: 3000
   port: 80
 
 ingress:
@@ -80,3 +81,6 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+secret:
+  name: app-env-secret
