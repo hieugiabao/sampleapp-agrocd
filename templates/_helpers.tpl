@@ -62,7 +62,7 @@ Create the name of the service account to use
 {{- end }}
 
 {{- define "helpers.list-env-variables"}}
-{{- range $key, $val := .Values.env }}
+{{- range $key, $val := .Values.env.secret }}
 - name: {{ $key }}
   valueFrom:
     secretKeyRef:
