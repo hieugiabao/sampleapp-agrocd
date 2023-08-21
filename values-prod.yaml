@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: hieuphongvy/nodejs-demo
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: stable
+  tag: prod-03aa7f2afab2b11d9afb55da94a244ef0463a562
 
 imagePullSecrets: []
 nameOverride: ""
