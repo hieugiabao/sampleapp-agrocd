@@ -8,7 +8,7 @@ image:
   repository: hieuphongvy/nodejs-demo
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: -4889f48e1d1fcaa5b27c5fed0edb4a2e58d51269
+  tag: dev-c3cd4d705cf599406e21ab31c5200a3d7a6cd285
 
 imagePullSecrets: []
 nameOverride: ""
